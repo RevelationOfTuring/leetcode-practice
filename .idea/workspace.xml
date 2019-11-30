@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d19db2a2-5e16-41c3-a99c-7dd37998d4bf" name="Default Changelist" comment="" />
+    <list default="true" id="d19db2a2-5e16-41c3-a99c-7dd37998d4bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/2d-array-spiral-order.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2d-array-spiral-order_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,23 +13,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.50277394">
+    <splitter split-orientation="horizontal" split-proportion="0.5693694">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/2d-array-find-diagonal-order.go">
+            <entry file="file://$PROJECT_DIR$/2d-array-spiral-order.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="452">
-                  <caret line="85" selection-start-line="14" selection-end-line="85" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file:///usr/local/Cellar/go/1.12.2/libexec/src/testing/testing.go">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1810">
-                  <caret line="802" selection-start-line="802" selection-end-line="802" />
+                <state relative-caret-position="408">
+                  <caret line="22" selection-start-line="22" selection-end-line="75" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -35,10 +30,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/2d-array-find-diagonal-order_test.go">
+            <entry file="file://$PROJECT_DIR$/2d-array-spiral-order_test.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="20" column="10" selection-start-line="18" selection-start-column="6" selection-end-line="20" selection-end-column="10" />
+                <state relative-caret-position="288">
+                  <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
                   <folding>
                     <element signature="e#14#42#0" expanded="true" />
                   </folding>
@@ -83,6 +78,8 @@
         <option value="$PROJECT_DIR$/array-3-plus-one_test.go" />
         <option value="$PROJECT_DIR$/2d-array-find-diagonal-order_test.go" />
         <option value="$PROJECT_DIR$/2d-array-find-diagonal-order.go" />
+        <option value="$PROJECT_DIR$/2d-array-spiral-order_test.go" />
+        <option value="$PROJECT_DIR$/2d-array-spiral-order.go" />
       </list>
     </option>
   </component>
@@ -161,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestFindDiagonalOrder in leetcode-cn">
+  <component name="RunManager" selected="Go Test.TestSpiralOrder in leetcode-cn">
     <configuration name="TestDominantIndex in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-cn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -182,17 +179,6 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestFindDiagonalOrder$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestLengthOfLongestSubstring in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-cn" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-cn" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestLengthOfLongestSubstring$" />
       <method v="2" />
     </configuration>
     <configuration name="TestPivotIndex in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -217,57 +203,69 @@
       <pattern value="^TestPlusOne$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestSpiralOrder in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-cn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-cn" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestSpiralOrder$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestSpiralOrder in leetcode-cn" />
         <item itemvalue="Go Test.TestFindDiagonalOrder in leetcode-cn" />
         <item itemvalue="Go Test.TestPlusOne in leetcode-cn" />
         <item itemvalue="Go Test.TestDominantIndex in leetcode-cn" />
         <item itemvalue="Go Test.TestPivotIndex in leetcode-cn" />
-        <item itemvalue="Go Test.TestLengthOfLongestSubstring in leetcode-cn" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestFindDiagonalOrder_in_leetcode-cn - 2019.11.30 at 15h 48m 39s.xml">
-      <configuration name="TestFindDiagonalOrder in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSpiralOrder_in_leetcode-cn - 2019.12.01 at 02h 14m 11s.xml">
+      <configuration name="TestSpiralOrder in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFindDiagonalOrder_in_leetcode-cn - 2019.11.30 at 15h 48m 40s.xml">
-      <configuration name="TestFindDiagonalOrder in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSpiralOrder_in_leetcode-cn - 2019.12.01 at 02h 14m 44s.xml">
+      <configuration name="TestSpiralOrder in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFindDiagonalOrder_in_leetcode-cn - 2019.11.30 at 15h 53m 35s.xml">
-      <configuration name="TestFindDiagonalOrder in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSpiralOrder_in_leetcode-cn - 2019.12.01 at 02h 17m 50s.xml">
+      <configuration name="TestSpiralOrder in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFindDiagonalOrder_in_leetcode-cn - 2019.11.30 at 15h 57m 59s.xml">
-      <configuration name="TestFindDiagonalOrder in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSpiralOrder_in_leetcode-cn - 2019.12.01 at 02h 17m 51s.xml">
+      <configuration name="TestSpiralOrder in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFindDiagonalOrder_in_leetcode-cn - 2019.11.30 at 23h 10m 52s.xml">
-      <configuration name="TestFindDiagonalOrder in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSpiralOrder_in_leetcode-cn - 2019.12.01 at 02h 18m 51s.xml">
+      <configuration name="TestSpiralOrder in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFindDiagonalOrder_in_leetcode-cn - 2019.11.30 at 23h 53m 29s.xml">
-      <configuration name="TestFindDiagonalOrder in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSpiralOrder_in_leetcode-cn - 2019.12.01 at 02h 19m 31s.xml">
+      <configuration name="TestSpiralOrder in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFindDiagonalOrder_in_leetcode-cn - 2019.11.30 at 23h 58m 12s.xml">
-      <configuration name="TestFindDiagonalOrder in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSpiralOrder_in_leetcode-cn - 2019.12.01 at 02h 19m 37s.xml">
+      <configuration name="TestSpiralOrder in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFindDiagonalOrder_in_leetcode-cn - 2019.12.01 at 00h 40m 32s.xml">
-      <configuration name="TestFindDiagonalOrder in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSpiralOrder_in_leetcode-cn - 2019.12.01 at 02h 20m 05s.xml">
+      <configuration name="TestSpiralOrder in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFindDiagonalOrder_in_leetcode-cn - 2019.12.01 at 00h 42m 12s.xml">
-      <configuration name="TestFindDiagonalOrder in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSpiralOrder_in_leetcode-cn - 2019.12.01 at 02h 20m 15s.xml">
+      <configuration name="TestSpiralOrder in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFindDiagonalOrder_in_leetcode-cn - 2019.12.01 at 00h 42m 13s.xml">
-      <configuration name="TestFindDiagonalOrder in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSpiralOrder_in_leetcode-cn - 2019.12.01 at 02h 20m 41s.xml">
+      <configuration name="TestSpiralOrder in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11965812" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10805861" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -275,7 +273,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -400,13 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/Cellar/go/1.12.2/libexec/src/testing/testing.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1810">
-          <caret line="802" selection-start-line="802" selection-end-line="802" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2d-array-find-diagonal-order_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -421,6 +412,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="452">
           <caret line="85" selection-start-line="14" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.12.2/libexec/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="802" selection-start-line="802" selection-end-line="802" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2d-array-spiral-order_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2d-array-spiral-order.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="22" selection-start-line="22" selection-end-line="75" selection-end-column="1" />
         </state>
       </provider>
     </entry>
