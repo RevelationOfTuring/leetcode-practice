@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d19db2a2-5e16-41c3-a99c-7dd37998d4bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2d-array-pascals-triangle.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2d-array-pascals-triangle_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string-binary-sum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string-binary-sum_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-two-sum.go" beforeDir="false" afterPath="$PROJECT_DIR$/1-two-sum.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,14 +13,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5695276">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/2d-array-pascals-triangle.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="548">
-                  <caret line="36" selection-start-line="16" selection-end-line="36" />
+                <state relative-caret-position="452">
+                  <caret line="36" selection-start-line="36" selection-end-line="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/string-binary-sum.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="383">
+                  <caret line="108" column="1" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -31,10 +39,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/2d-array-pascals-triangle_test.go">
+            <entry file="file://$PROJECT_DIR$/string-binary-sum_test.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+                <state relative-caret-position="383">
+                  <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
                   <folding>
                     <element signature="e#14#42#0" expanded="true" />
                   </folding>
@@ -84,6 +92,8 @@
         <option value="$PROJECT_DIR$/1-two-sum.go" />
         <option value="$PROJECT_DIR$/2d-array-yanghui-triangle.go" />
         <option value="$PROJECT_DIR$/2d-array-yanghui-triangle_test.go" />
+        <option value="$PROJECT_DIR$/string-binary-sum.go" />
+        <option value="$PROJECT_DIR$/string-binary-sum_test.go" />
       </list>
     </option>
   </component>
@@ -162,8 +172,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestGenerate in leetcode-cn">
-    <configuration name="TestDominantIndex in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestAddBinary in leetcode-cn">
+    <configuration name="TestAddBinary in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-cn" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -171,7 +181,7 @@
       <package value="leetcode-cn" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestDominantIndex$" />
+      <pattern value="^TestAddBinary$" />
       <method v="2" />
     </configuration>
     <configuration name="TestFindDiagonalOrder in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -220,56 +230,57 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestAddBinary in leetcode-cn" />
         <item itemvalue="Go Test.TestGenerate in leetcode-cn" />
         <item itemvalue="Go Test.TestSpiralOrder in leetcode-cn" />
         <item itemvalue="Go Test.TestFindDiagonalOrder in leetcode-cn" />
         <item itemvalue="Go Test.TestPlusOne in leetcode-cn" />
-        <item itemvalue="Go Test.TestDominantIndex in leetcode-cn" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestGenerate_in_leetcode-cn - 2019.12.01 at 10h 20m 57s.xml">
-      <configuration name="TestGenerate in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestAddBinary_in_leetcode-cn - 2019.12.01 at 13h 20m 08s.xml">
+      <configuration name="TestAddBinary in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGenerate_in_leetcode-cn - 2019.12.01 at 10h 21m 02s.xml">
-      <configuration name="TestGenerate in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestAddBinary_in_leetcode-cn - 2019.12.01 at 13h 21m 33s.xml">
+      <configuration name="TestAddBinary in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGenerate_in_leetcode-cn - 2019.12.01 at 10h 21m 08s.xml">
-      <configuration name="TestGenerate in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestAddBinary_in_leetcode-cn - 2019.12.01 at 13h 26m 45s.xml">
+      <configuration name="TestAddBinary in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGenerate_in_leetcode-cn - 2019.12.01 at 10h 24m 53s.xml">
-      <configuration name="TestGenerate in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestAddBinary_in_leetcode-cn - 2019.12.01 at 13h 28m 49s.xml">
+      <configuration name="TestAddBinary in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGenerate_in_leetcode-cn - 2019.12.01 at 10h 25m 39s.xml">
-      <configuration name="TestGenerate in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestAddBinary_in_leetcode-cn - 2019.12.01 at 13h 30m 00s.xml">
+      <configuration name="TestAddBinary in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGenerate_in_leetcode-cn - 2019.12.01 at 10h 27m 20s.xml">
-      <configuration name="TestGenerate in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestAddBinary_in_leetcode-cn - 2019.12.01 at 13h 30m 14s.xml">
+      <configuration name="TestAddBinary in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGenerate_in_leetcode-cn - 2019.12.01 at 10h 27m 36s.xml">
-      <configuration name="TestGenerate in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestAddBinary_in_leetcode-cn - 2019.12.01 at 13h 30m 23s.xml">
+      <configuration name="TestAddBinary in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGenerate_in_leetcode-cn - 2019.12.01 at 10h 29m 27s.xml">
-      <configuration name="TestGenerate in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestAddBinary_in_leetcode-cn - 2019.12.01 at 13h 31m 48s.xml">
+      <configuration name="TestAddBinary in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGenerate_in_leetcode-cn - 2019.12.01 at 10h 29m 53s.xml">
-      <configuration name="TestGenerate in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestAddBinary_in_leetcode-cn - 2019.12.01 at 13h 32m 20s.xml">
+      <configuration name="TestAddBinary in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGenerate_in_leetcode-cn - 2019.12.01 at 10h 29m 57s.xml">
-      <configuration name="TestGenerate in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestAddBinary_in_leetcode-cn - 2019.12.01 at 13h 32m 55s.xml">
+      <configuration name="TestAddBinary in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1892552" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.082417585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -454,8 +465,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2d-array-pascals-triangle.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="36" selection-start-line="16" selection-end-line="36" />
+        <state relative-caret-position="452">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string-binary-sum.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="108" column="1" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string-binary-sum_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
