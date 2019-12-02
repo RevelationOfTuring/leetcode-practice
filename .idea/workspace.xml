@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d19db2a2-5e16-41c3-a99c-7dd37998d4bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/two-pointer-array-pair-sum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/two-pointer-array-pair-sum_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/two-pointer-reverse-string.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/two-pointer-reverse-string_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/two-pointer-two-sum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/two-pointer-two-sum_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,23 +13,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.71405095">
+    <splitter split-orientation="horizontal" split-proportion="0.6076314">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/2d-array-spiral-order.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="349">
-                  <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+                <state relative-caret-position="157">
+                  <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/two-pointer-array-pair-sum.go">
+            <entry file="file://$PROJECT_DIR$/two-pointer-two-sum.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="452">
-                  <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+                <state relative-caret-position="19">
+                  <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
                 </state>
               </provider>
             </entry>
@@ -39,15 +37,24 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/two-pointer-array-pair-sum_test.go">
+            <entry file="file://$PROJECT_DIR$/two-pointer-two-sum_test.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="394">
-                  <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+                <state relative-caret-position="168">
+                  <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
                   <folding>
                     <element signature="e#14#42#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/1-two-sum.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="192">
+                  <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -104,6 +111,8 @@
         <option value="$PROJECT_DIR$/two-pointer-reverse-string_test.go" />
         <option value="$PROJECT_DIR$/two-pointer-array-pair-sum_test.go" />
         <option value="$PROJECT_DIR$/two-pointer-array-pair-sum.go" />
+        <option value="$PROJECT_DIR$/two-pointer-two-sum_test.go" />
+        <option value="$PROJECT_DIR$/two-pointer-two-sum.go" />
       </list>
     </option>
   </component>
@@ -118,7 +127,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,36 +138,11 @@
               <item name="leetcode-cn" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
-            <path>
-              <item name="leetcode-cn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.12.2" type="20ee2d1f:SyntheticLibraryElementNode" />
-            </path>
-            <path>
-              <item name="leetcode-cn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.12.2" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode-cn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.12.2" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="container" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode-cn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.12.2" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="container" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,18 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestArrayPairSum in leetcode-cn">
-    <configuration name="TestAddBinary in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-cn" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-cn" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestAddBinary$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestTwoSum1 in leetcode-cn">
     <configuration name="TestArrayPairSum in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-cn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -239,53 +211,64 @@
       <pattern value="^TestStrStr$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestTwoSum1 in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-cn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-cn" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestTwoSum1$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestTwoSum1 in leetcode-cn" />
         <item itemvalue="Go Test.TestArrayPairSum in leetcode-cn" />
         <item itemvalue="Go Test.TestReverseString in leetcode-cn" />
         <item itemvalue="Go Test.TestLongestCommonPrefix in leetcode-cn" />
         <item itemvalue="Go Test.TestStrStr in leetcode-cn" />
-        <item itemvalue="Go Test.TestAddBinary in leetcode-cn" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestArrayPairSum_in_leetcode-cn - 2019.12.01 at 23h 29m 34s.xml">
-      <configuration name="TestArrayPairSum in leetcode-cn" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArrayPairSum_in_leetcode-cn - 2019.12.01 at 23h 30m 17s.xml">
-      <configuration name="TestArrayPairSum in leetcode-cn" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArrayPairSum_in_leetcode-cn - 2019.12.01 at 23h 30m 47s.xml">
-      <configuration name="TestArrayPairSum in leetcode-cn" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArrayPairSum_in_leetcode-cn - 2019.12.01 at 23h 32m 10s.xml">
-      <configuration name="TestArrayPairSum in leetcode-cn" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArrayPairSum_in_leetcode-cn - 2019.12.01 at 23h 32m 27s.xml">
-      <configuration name="TestArrayPairSum in leetcode-cn" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArrayPairSum_in_leetcode-cn - 2019.12.01 at 23h 42m 33s.xml">
-      <configuration name="TestArrayPairSum in leetcode-cn" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArrayPairSum_in_leetcode-cn - 2019.12.01 at 23h 50m 54s.xml">
-      <configuration name="TestArrayPairSum in leetcode-cn" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArrayPairSum_in_leetcode-cn - 2019.12.01 at 23h 53m 55s.xml">
-      <configuration name="TestArrayPairSum in leetcode-cn" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestArrayPairSum_in_leetcode-cn - 2019.12.01 at 23h 55m 12s.xml">
       <configuration name="TestArrayPairSum in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestArrayPairSum_in_leetcode-cn - 2019.12.01 at 23h 57m 16s.xml">
       <configuration name="TestArrayPairSum in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestTwoSum1_in_leetcode-cn - 2019.12.02 at 22h 54m 54s.xml">
+      <configuration name="TestTwoSum1 in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTwoSum1_in_leetcode-cn - 2019.12.02 at 23h 02m 38s.xml">
+      <configuration name="TestTwoSum1 in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTwoSum1_in_leetcode-cn - 2019.12.02 at 23h 25m 52s.xml">
+      <configuration name="TestTwoSum1 in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTwoSum1_in_leetcode-cn - 2019.12.02 at 23h 26m 16s.xml">
+      <configuration name="TestTwoSum1 in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTwoSum1_in_leetcode-cn - 2019.12.02 at 23h 27m 44s.xml">
+      <configuration name="TestTwoSum1 in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTwoSum1_in_leetcode-cn - 2019.12.02 at 23h 28m 56s.xml">
+      <configuration name="TestTwoSum1 in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTwoSum1_in_leetcode-cn - 2019.12.02 at 23h 28m 59s.xml">
+      <configuration name="TestTwoSum1 in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTwoSum1_in_leetcode-cn - 2019.12.02 at 23h 43m 52s.xml">
+      <configuration name="TestTwoSum1 in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25702077" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.03663004" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -440,13 +423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-two-sum.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2d-array-spiral-order_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -556,16 +532,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2d-array-spiral-order.go">
+    <entry file="file://$PROJECT_DIR$/two-pointer-array-pair-sum.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        <state relative-caret-position="466">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/two-pointer-array-pair-sum_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
+        <state relative-caret-position="548">
           <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
           <folding>
             <element signature="e#14#42#0" expanded="true" />
@@ -573,10 +549,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/two-pointer-array-pair-sum.go">
+    <entry file="file://$PROJECT_DIR$/2d-array-spiral-order.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="157">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-two-sum.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/two-pointer-two-sum.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/two-pointer-two-sum_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
