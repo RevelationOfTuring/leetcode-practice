@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d19db2a2-5e16-41c3-a99c-7dd37998d4bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/two-pointer-two-sum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/two-pointer-two-sum_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/two-pointer-find-max-consecutive-ones.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/two-pointer-find-max-consecutive-ones_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/two-pointer-remove-element.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/two-pointer-remove-element_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6076314">
+    <splitter split-orientation="horizontal" split-proportion="0.6084724">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -25,11 +27,29 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/two-pointer-two-sum.go">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/two-pointer-remove-element.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="19">
-                  <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+                <state relative-caret-position="44">
+                  <caret line="41" selection-start-line="41" selection-end-line="60" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/two-pointer-find-max-consecutive-ones.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="59">
+                  <caret line="45" selection-start-line="45" selection-end-line="68" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/two-pointer-remove-element_test.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
                 </state>
               </provider>
             </entry>
@@ -37,24 +57,15 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/two-pointer-two-sum_test.go">
+            <entry file="file://$PROJECT_DIR$/two-pointer-find-max-consecutive-ones_test.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="168">
-                  <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+                <state relative-caret-position="240">
+                  <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
                   <folding>
                     <element signature="e#14#42#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/1-two-sum.go">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="192">
-                  <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -113,13 +124,16 @@
         <option value="$PROJECT_DIR$/two-pointer-array-pair-sum.go" />
         <option value="$PROJECT_DIR$/two-pointer-two-sum_test.go" />
         <option value="$PROJECT_DIR$/two-pointer-two-sum.go" />
+        <option value="$PROJECT_DIR$/two-pointer-remove-element_test.go" />
+        <option value="$PROJECT_DIR$/two-pointer-remove-element.go" />
+        <option value="$PROJECT_DIR$/two-pointer-find-max-consecutive-ones_test.go" />
+        <option value="$PROJECT_DIR$/two-pointer-find-max-consecutive-ones.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="972" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -166,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestTwoSum1 in leetcode-cn">
+  <component name="RunManager" selected="Go Test.TestFindMaxConsecutiveOnes in leetcode-cn">
     <configuration name="TestArrayPairSum in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-cn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -178,7 +192,7 @@
       <pattern value="^TestArrayPairSum$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestLongestCommonPrefix in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFindMaxConsecutiveOnes in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-cn" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -186,7 +200,18 @@
       <package value="leetcode-cn" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestLongestCommonPrefix$" />
+      <pattern value="^TestFindMaxConsecutiveOnes$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRemoveElement in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-cn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-cn" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestRemoveElement$" />
       <method v="2" />
     </configuration>
     <configuration name="TestReverseString in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -198,17 +223,6 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestReverseString$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestStrStr in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-cn" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-cn" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestStrStr$" />
       <method v="2" />
     </configuration>
     <configuration name="TestTwoSum1 in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -224,51 +238,51 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestFindMaxConsecutiveOnes in leetcode-cn" />
+        <item itemvalue="Go Test.TestRemoveElement in leetcode-cn" />
         <item itemvalue="Go Test.TestTwoSum1 in leetcode-cn" />
         <item itemvalue="Go Test.TestArrayPairSum in leetcode-cn" />
         <item itemvalue="Go Test.TestReverseString in leetcode-cn" />
-        <item itemvalue="Go Test.TestLongestCommonPrefix in leetcode-cn" />
-        <item itemvalue="Go Test.TestStrStr in leetcode-cn" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestArrayPairSum_in_leetcode-cn - 2019.12.01 at 23h 55m 12s.xml">
-      <configuration name="TestArrayPairSum in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestFindMaxConsecutiveOnes_in_leetcode-cn - 2019.12.03 at 23h 23m 28s.xml">
+      <configuration name="TestFindMaxConsecutiveOnes in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestArrayPairSum_in_leetcode-cn - 2019.12.01 at 23h 57m 16s.xml">
-      <configuration name="TestArrayPairSum in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestFindMaxConsecutiveOnes_in_leetcode-cn - 2019.12.03 at 23h 38m 40s.xml">
+      <configuration name="TestFindMaxConsecutiveOnes in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestTwoSum1_in_leetcode-cn - 2019.12.02 at 22h 54m 54s.xml">
-      <configuration name="TestTwoSum1 in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestFindMaxConsecutiveOnes_in_leetcode-cn - 2019.12.03 at 23h 39m 11s.xml">
+      <configuration name="TestFindMaxConsecutiveOnes in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestTwoSum1_in_leetcode-cn - 2019.12.02 at 23h 02m 38s.xml">
-      <configuration name="TestTwoSum1 in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestFindMaxConsecutiveOnes_in_leetcode-cn - 2019.12.03 at 23h 39m 12s.xml">
+      <configuration name="TestFindMaxConsecutiveOnes in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestTwoSum1_in_leetcode-cn - 2019.12.02 at 23h 25m 52s.xml">
-      <configuration name="TestTwoSum1 in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestFindMaxConsecutiveOnes_in_leetcode-cn - 2019.12.03 at 23h 39m 24s.xml">
+      <configuration name="TestFindMaxConsecutiveOnes in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestTwoSum1_in_leetcode-cn - 2019.12.02 at 23h 26m 16s.xml">
-      <configuration name="TestTwoSum1 in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestFindMaxConsecutiveOnes_in_leetcode-cn - 2019.12.03 at 23h 43m 35s.xml">
+      <configuration name="TestFindMaxConsecutiveOnes in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestTwoSum1_in_leetcode-cn - 2019.12.02 at 23h 27m 44s.xml">
-      <configuration name="TestTwoSum1 in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestFindMaxConsecutiveOnes_in_leetcode-cn - 2019.12.03 at 23h 50m 36s.xml">
+      <configuration name="TestFindMaxConsecutiveOnes in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestTwoSum1_in_leetcode-cn - 2019.12.02 at 23h 28m 56s.xml">
-      <configuration name="TestTwoSum1 in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestFindMaxConsecutiveOnes_in_leetcode-cn - 2019.12.03 at 23h 52m 22s.xml">
+      <configuration name="TestFindMaxConsecutiveOnes in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestTwoSum1_in_leetcode-cn - 2019.12.02 at 23h 28m 59s.xml">
-      <configuration name="TestTwoSum1 in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestFindMaxConsecutiveOnes_in_leetcode-cn - 2019.12.03 at 23h 52m 45s.xml">
+      <configuration name="TestFindMaxConsecutiveOnes in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestTwoSum1_in_leetcode-cn - 2019.12.02 at 23h 43m 52s.xml">
-      <configuration name="TestTwoSum1 in leetcode-cn" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestFindMaxConsecutiveOnes_in_leetcode-cn - 2019.12.03 at 23h 54m 31s.xml">
+      <configuration name="TestFindMaxConsecutiveOnes in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.03663004" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.04884005" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -291,6 +305,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/two-pointer-find-max-consecutive-ones.go</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/1-two-sum_test.go">
@@ -549,6 +575,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/two-pointer-two-sum.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="40" selection-start-line="16" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2d-array-spiral-order.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -563,20 +596,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/two-pointer-two-sum.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/two-pointer-two-sum_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
             <element signature="e#14#42#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/two-pointer-remove-element_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/two-pointer-remove-element.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="41" selection-start-line="41" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/two-pointer-find-max-consecutive-ones_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/two-pointer-find-max-consecutive-ones.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="45" selection-start-line="45" selection-end-line="68" selection-end-column="1" />
         </state>
       </provider>
     </entry>
