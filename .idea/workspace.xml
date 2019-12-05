@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d19db2a2-5e16-41c3-a99c-7dd37998d4bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/two-pointer-min-subarray-len.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/two-pointer-min-subarray-len_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array-rotate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array-rotate_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,23 +13,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.6744847">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/two-pointer-min-subarray-len.go">
+            <entry file="file://$PROJECT_DIR$/array-rotate.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="563">
-                  <caret line="116" lean-forward="true" selection-start-line="92" selection-end-line="116" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/two-pointer-remove-element_test.go">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="110">
-                  <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+                <state relative-caret-position="549">
+                  <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
                 </state>
               </provider>
             </entry>
@@ -37,12 +28,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/two-pointer-min-subarray-len_test.go">
+            <entry file="file://$PROJECT_DIR$/array-rotate_test.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="242">
-                  <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+                <state relative-caret-position="432">
+                  <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
                   <folding>
                     <element signature="e#14#42#0" expanded="true" />
                   </folding>
@@ -111,6 +102,8 @@
         <option value="$PROJECT_DIR$/two-pointer-min-sub-array-len.go" />
         <option value="$PROJECT_DIR$/two-pointer-min-subarray-len_test.go" />
         <option value="$PROJECT_DIR$/two-pointer-min-subarray-len.go" />
+        <option value="$PROJECT_DIR$/array-rotate_test.go" />
+        <option value="$PROJECT_DIR$/array-rotate.go" />
       </list>
     </option>
   </component>
@@ -131,8 +124,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="leetcode-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode-cn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode-cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode-cn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -164,18 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestMinSubArrayLen in github.com/leetcode-practice">
-    <configuration name="TestArrayPairSum in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-cn" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-cn" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestArrayPairSum$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestRotate in leetcode-cn">
     <configuration name="TestFindMaxConsecutiveOnes in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-cn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -209,6 +195,17 @@
       <pattern value="^TestRemoveElement$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestRotate in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-cn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-cn" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestRotate$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestTwoSum1 in leetcode-cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode-cn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -222,56 +219,56 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestRotate in leetcode-cn" />
         <item itemvalue="Go Test.TestMinSubArrayLen in github.com/leetcode-practice" />
         <item itemvalue="Go Test.TestFindMaxConsecutiveOnes in leetcode-cn" />
         <item itemvalue="Go Test.TestRemoveElement in leetcode-cn" />
         <item itemvalue="Go Test.TestTwoSum1 in leetcode-cn" />
-        <item itemvalue="Go Test.TestArrayPairSum in leetcode-cn" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMinSubArrayLen_in_github_com_leetcode-practice - 2019.12.04 at 21h 22m 39s.xml">
-      <configuration name="TestMinSubArrayLen in github.com/leetcode-practice" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestRotate_in_leetcode-cn - 2019.12.05 at 22h 56m 25s.xml">
+      <configuration name="TestRotate in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMinSubArrayLen_in_github_com_leetcode-practice - 2019.12.04 at 21h 29m 18s.xml">
-      <configuration name="TestMinSubArrayLen in github.com/leetcode-practice" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestRotate_in_leetcode-cn - 2019.12.05 at 22h 59m 03s.xml">
+      <configuration name="TestRotate in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMinSubArrayLen_in_github_com_leetcode-practice - 2019.12.04 at 21h 29m 41s.xml">
-      <configuration name="TestMinSubArrayLen in github.com/leetcode-practice" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestRotate_in_leetcode-cn - 2019.12.05 at 22h 59m 30s.xml">
+      <configuration name="TestRotate in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMinSubArrayLen_in_github_com_leetcode-practice - 2019.12.04 at 21h 38m 08s.xml">
-      <configuration name="TestMinSubArrayLen in github.com/leetcode-practice" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestRotate_in_leetcode-cn - 2019.12.05 at 23h 00m 47s.xml">
+      <configuration name="TestRotate in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMinSubArrayLen_in_github_com_leetcode-practice - 2019.12.04 at 21h 40m 27s.xml">
-      <configuration name="TestMinSubArrayLen in github.com/leetcode-practice" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestRotate_in_leetcode-cn - 2019.12.05 at 23h 38m 40s.xml">
+      <configuration name="TestRotate in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMinSubArrayLen_in_github_com_leetcode-practice - 2019.12.04 at 21h 40m 35s.xml">
-      <configuration name="TestMinSubArrayLen in github.com/leetcode-practice" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestRotate_in_leetcode-cn - 2019.12.05 at 23h 38m 50s.xml">
+      <configuration name="TestRotate in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMinSubArrayLen_in_github_com_leetcode-practice - 2019.12.04 at 21h 41m 47s.xml">
-      <configuration name="TestMinSubArrayLen in github.com/leetcode-practice" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestRotate_in_leetcode-cn - 2019.12.05 at 23h 41m 35s.xml">
+      <configuration name="TestRotate in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMinSubArrayLen_in_github_com_leetcode-practice - 2019.12.04 at 21h 41m 58s.xml">
-      <configuration name="TestMinSubArrayLen in github.com/leetcode-practice" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestRotate_in_leetcode-cn - 2019.12.05 at 23h 51m 25s.xml">
+      <configuration name="TestRotate in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMinSubArrayLen_in_github_com_leetcode-practice - 2019.12.04 at 21h 44m 34s.xml">
-      <configuration name="TestMinSubArrayLen in github.com/leetcode-practice" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestRotate_in_leetcode-cn - 2019.12.05 at 23h 51m 30s.xml">
+      <configuration name="TestRotate in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMinSubArrayLen_in_github_com_leetcode-practice - 2019.12.04 at 21h 54m 33s.xml">
-      <configuration name="TestMinSubArrayLen in github.com/leetcode-practice" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestRotate_in_leetcode-cn - 2019.12.05 at 23h 55m 05s.xml">
+      <configuration name="TestRotate in leetcode-cn" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-88" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19595315" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14102565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32871288" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -281,11 +278,11 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32871288" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="PlantUML" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="PlantUML" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,13 +299,11 @@
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/two-pointer-min-subarray-len.go</url>
           <line>18</line>
-          <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/two-pointer-min-subarray-len.go</url>
           <line>67</line>
-          <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
@@ -573,32 +568,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/two-pointer-find-max-consecutive-ones_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="240">
           <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding>
             <element signature="e#14#42#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/two-pointer-find-max-consecutive-ones.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/two-pointer-remove-element.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="41" selection-start-line="41" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2d-array-spiral-order.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -612,17 +586,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/two-pointer-remove-element_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/two-pointer-min-subarray-len.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="563">
           <caret line="116" lean-forward="true" selection-start-line="92" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/two-pointer-find-max-consecutive-ones.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/two-pointer-remove-element.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="41" selection-start-line="41" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2d-array-spiral-order.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/two-pointer-remove-element_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array-rotate_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array-rotate.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
